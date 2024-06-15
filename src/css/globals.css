@@ -1,0 +1,20 @@
+:root {
+    --font-s-m-size: 12px;
+    --font-l-size: 14px;
+    --font-ll-size: 18px;
+    --font-m-l-spacing: 2px;
+    --font-xl-size: 28px;
+    --font-xl-spacing: 3.42px;
+    --font-family: "Space Grotesk", sans-serif;
+    --font-weight: 500;
+
+    --color-deep-violet: #21092F;
+    --color-red: #FF5050;
+    --color-light-grey: #DFDEE0;
+    --color-gradient: #6348FE;
+    --color-purplish-grey: #8F8694;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');

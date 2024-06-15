@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1024px) {
+    .thank-you {
+            width: 100vw;
+            margin-left: 0;
+            padding-top: 20%;
+            padding-bottom: 45px;
+        }
+}
+
+@media only screen and (max-width: 390px) {
+    .thank-you {
+            padding-top: 15%;
+        }
+        .thank-you button{
+            width: 327px;
+        }
+}

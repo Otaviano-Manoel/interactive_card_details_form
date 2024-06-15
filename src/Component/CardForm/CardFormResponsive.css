@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1024px) {
+    .card-form {
+        padding-top: 20%;
+        align-items: center;
+        margin-left: 0;
+        padding-bottom: 45px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .card-form{
+        padding-bottom: 15%;
+    }
+
+    .defined-card-holder input,
+    .defined-card-number input, .submit {
+        width: 327px;
+    }
+
+    .defined-card-holder,
+    .defined-card-number {
+        margin-bottom: 20px;
+    }
+
+    .grid {
+        margin-bottom: 28px;
+    }
+
+    .month {
+        width: 72px;
+        margin-right: 8px;
+    }
+
+    .year {
+        width: 72px;
+    }
+
+    .cvc {
+        width: 164px;
+    }
+
+    .title-cvc,
+    .cvc,
+    .error-cvc {
+        margin-left: 11px;
+    }
+}

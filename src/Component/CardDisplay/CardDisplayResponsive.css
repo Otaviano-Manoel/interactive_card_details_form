@@ -1,0 +1,76 @@
+@media only screen and (max-width: 1024px) {
+    .card-display {
+        width: 100vw;
+        height: 320px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card-front {
+        margin-top: 167px;
+        margin-left: 0px;
+        z-index: 2;
+    }
+
+
+    .card-back {
+        margin-top: 32px;
+        margin-left: -350px;
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .card-display {
+        width: 100vw;
+        height: 240px;
+    }
+
+    .card-front {
+        width: 286px;
+        height: 157px;
+        border-radius: 6px;
+        padding: 17.5px 19px 17.5px 21px;
+        margin-top: 124px;
+        z-index: 2;
+    }
+
+    .card-logo {
+        width: 54px;
+        height: 30px;
+    }
+
+    .card-number {
+        margin-top: 37px;
+        font-size: var(--font-ll-size);
+        letter-spacing: 2.2px;
+    }
+
+    .card-details {
+        margin-top: 17px;
+        font-size: 9px;
+        letter-spacing: 1.29px;
+    }
+
+
+    .card-back {
+        width: 286px;
+        height: 157px;
+        margin-top: 35px;
+        margin-left: -230px;
+        z-index: 1;
+    }
+
+    .card-cvc {
+        margin-right: 37px;
+        font-size: 9px;
+        letter-spacing: 1.3px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+
+    .card-back {
+        margin-left: -240px;
+    }
+}

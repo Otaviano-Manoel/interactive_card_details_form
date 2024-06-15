@@ -1,0 +1,130 @@
+.card-form{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 29%;
+}
+
+.card-form label{
+    display: block;
+    font-size: var(--font-s-m-size);
+    letter-spacing: var(--font-m-l-spacing);
+    color: var(--color-deep-violet);
+    margin-bottom: 9px;
+}
+
+.card-form p{
+    font-size: var(--font-s-m-size);
+    color: var(--color-red);
+    margin-top: 8px;
+}
+
+input{
+    padding: 11px 16px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: var(--color-light-grey);
+    border-width: 1px;
+    color: var(--color-deep-violet);
+    font-size: var(--font-ll-size);
+    outline: none;
+}
+input:focus{
+    border-color: var(--color-gradient);
+}
+::placeholder {
+     color: var(--color-light-grey);
+     font-family: var(--font-family);
+     font-size: var(--font-ll-size);
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Remover setas de todos os navegadores */
+input[type=number] {
+    appearance: textfield;
+}
+input:hover{
+    border-color: var(--color-gradient);
+}
+
+.defined-card-holder, .defined-card-number, .grid{
+    margin-bottom: 26px;
+}
+
+.defined-card-holder input, .defined-card-number input{
+    width: 381px;
+    height: 45px;
+}
+
+.grid{
+    display: grid;
+    grid-template-areas: 
+    'date date title-cvc'
+    'MM YY cvc'
+    'error-date error-date error-cvc';
+}
+
+.date{
+    grid-area: date;
+}
+
+.month{
+    grid-area: MM;
+    width: 80px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.year{
+    grid-area: YY;
+    width: 80px;
+    height: 45px;
+}
+
+.error-date{
+    grid-area: error-date;
+}
+
+.title-cvc{
+    grid-area: title-cvc;
+}
+
+.cvc{
+    grid-area: cvc;
+    width: 191px;
+    height: 45px;
+}
+
+.error-cvc{
+    grid-area: error-cvc;
+}
+
+
+.title-cvc, .cvc, .error-cvc{
+    margin-left: 20px;
+}
+
+.submit{
+    width: 381px;
+    height: 53px;
+    background-color: var(--color-deep-violet);
+    color: white;
+}
+
+
+.error{
+    border-color: #FF5050;
+}
+
+.active{
+    display: block;
+}
+
+.desactive{
+    display: none;
+}

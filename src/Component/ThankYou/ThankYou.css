@@ -1,0 +1,33 @@
+.thank-you {
+    margin-left: 29%;
+    width: 381px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-you img {
+    margin-bottom: 35px;
+}
+
+.thank-you h1 {
+    font-size: var(--font-xl-size);
+    letter-spacing: var(--font-xl-spacing);
+}
+
+.thank-you p {
+    margin-top: 16px;
+    font-size: var(--font-ll-size);
+    color: var(--color-purplish-grey);
+}
+
+.thank-you button {
+    width: 381px;
+    height: 53px;
+    margin-top: 48px;
+    border-radius: 8px;
+    font-size: var(--font-ll-size);
+    background-color: var(--color-deep-violet);
+    color: white;
+}
