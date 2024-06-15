@@ -2,11 +2,14 @@ import { ChangeEvent, Dispatch, SetStateAction } from "react";
 import { ICardInfo } from '../Interfaces/ICardInfo';
 
 export const handlerChange = (event: ChangeEvent<HTMLInputElement>, dispatch: Dispatch<SetStateAction<ICardInfo>>) => {
-    const { name, value } = event.currentTarget;
-    dispatch(currentCardInfo => ({
-        ...currentCardInfo,
-        [name]: value
-    }))
+    const { name, value, maxLength } = event.currentTarget;
+    if (value.length <= maxLength) {
+        dispatch(currentCardInfo => ({
+            ...currentCardInfo,
+            [name]: value
+
+        }))
+    }
 }
 
 export const formatCardNumber = (value: string) => {
@@ -23,7 +26,7 @@ export const validFormatHolder = (value: string): boolean => {
 export const validFormatCardNumber = (value: string): boolean => {
     const allZerosRegex = /^[0]+$/;
     const cardNumberRegex = /^[0-9 ]+$/;
-    
+
     if (allZerosRegex.test(value) || value === '') {
         return false;
     }

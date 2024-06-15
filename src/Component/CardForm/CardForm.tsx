@@ -97,6 +97,7 @@ class CardForm extends React.Component<CardFormProps> {
                         onChange={handleInputChange}
                         value={cardInfo.holder}
                         className={classNamestoError.holder.input}
+                        maxLength={26}
                         type="text"
                         name="holder"
                         id="card-holder"
@@ -110,6 +111,7 @@ class CardForm extends React.Component<CardFormProps> {
                         onChange={handleCardNumberChange}
                         className={classNamestoError.number.input}
                         value={cardInfo.number}
+                        maxLength={19}
                         name="number"
                         id="card-number"
                         placeholder='e.g. 1234 5678 9123 0000' />
@@ -123,6 +125,7 @@ class CardForm extends React.Component<CardFormProps> {
                         onKeyDown={preventInvalidKeyPress}
                         className={classNamestoError.date.month_Input}
                         value={cardInfo.month}
+                        maxLength={2}
                         type="number"
                         name="month"
                         id="set-month-validaty"
@@ -133,6 +136,7 @@ class CardForm extends React.Component<CardFormProps> {
                         onKeyDown={preventInvalidKeyPress}
                         value={cardInfo.year}
                         className={classNamestoError.date.year_Input}
+                        maxLength={2}
                         type="number"
                         name="year"
                         placeholder='YY' />
@@ -144,6 +148,7 @@ class CardForm extends React.Component<CardFormProps> {
                         onKeyDown={preventInvalidKeyPress}
                         value={cardInfo.cvc}
                         className={classNamestoError.cvc.input}
+                        maxLength={3}
                         type="number"
                         name="cvc"
                         id="cvc"
