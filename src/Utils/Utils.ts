@@ -24,7 +24,7 @@ export const validFormatHolder = (value: string): boolean => {
 };
 
 export const validFormatCardNumber = (value: string): boolean => {
-    const allZerosRegex = /^[0]+$/;
+    const allZerosRegex = /^[0 ]+$/;
     const cardNumberRegex = /^[0-9 ]+$/;
 
     if (allZerosRegex.test(value) || value === '') {

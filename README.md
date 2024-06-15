@@ -44,8 +44,8 @@ Your users should be able to:
 
 ### Links
 
-- [Cadigo Fonte](url-para-solucao)
-- [Site do Desafio](url-para-site-ao-vivo)
+- [Source code](https://github.com/Otaviano-Manoel/interactive_card_details_form)
+- [Live website](https://otaviano-manoel.github.io/interactive_card_details_form/)
 
 ## My Process
 
