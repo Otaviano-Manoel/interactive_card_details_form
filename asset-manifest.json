@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/interactive_card_details_form/static/css/main.39cd0362.css",
+    "main.js": "/interactive_card_details_form/static/js/main.e0060b8c.js",
+    "static/js/453.1857847b.chunk.js": "/interactive_card_details_form/static/js/453.1857847b.chunk.js",
+    "static/media/bg-card-back.png": "/interactive_card_details_form/static/media/bg-card-back.23f68fa3aa3d5b33dfc8.png",
+    "static/media/bg-card-front.png": "/interactive_card_details_form/static/media/bg-card-front.8153e2ca184402a8385f.png",
+    "index.html": "/interactive_card_details_form/index.html",
+    "static/media/icon-complete.svg": "/interactive_card_details_form/static/media/icon-complete.8fd757c0c5c44b1d597ca411400e046d.svg",
+    "static/media/card-logo.svg": "/interactive_card_details_form/static/media/card-logo.8ca9036515954c3f8191559dce9c7bdf.svg",
+    "main.39cd0362.css.map": "/interactive_card_details_form/static/css/main.39cd0362.css.map",
+    "main.e0060b8c.js.map": "/interactive_card_details_form/static/js/main.e0060b8c.js.map",
+    "453.1857847b.chunk.js.map": "/interactive_card_details_form/static/js/453.1857847b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39cd0362.css",
+    "static/js/main.e0060b8c.js"
+  ]
+}
